@@ -1,0 +1,65 @@
+The task is to answer the following question.
+
+Print the hotel data.
+Sort hotels by Name.
+Sort Hotel by highest rating.
+Print Hotel data for Bangalore Location.
+Sort hotels by maximum number of rooms Available.
+Print user Booking data.
+Approach:  
+
+Create classes for Hotel data and User data.
+Initialize variables that stores Hotel data and User data.
+Create Objects for Hotel and user classes that access the Hotel data and User data.
+initialize two vector array that holds the hotel data and user data.
+solve the Above questions one by one.
+Given the data for Hotel management and User:
+Hotel Data: 
+
+Hotel Name     Room Available     Location     Rating      Price per Room
+H1                4               Bangalore      5           100
+H2                5               Bangalore      5           200
+H3                6               Mumbai         3           100
+
+User Data: 
+
+User Name         UserID             Booking Cost
+U1                 2                  1000
+U2                 3                  1200
+U3                 4                  1100
+
+
+
+
+
+OUTPUT:
+PRINT HOTELS DATA:
+HotelName   Room Available    Location    Rating    PricePer Room:
+H1          4              Bangalore       5            100
+H2          5              Bangalore       5            200
+H3          6              Mumbai       3            100
+
+SORT BY NAME:
+H3 6 Mumbai 3  100
+H2 5 Bangalore 5  200
+H1 4 Bangalore 5  100
+
+SORT BY A RATING:
+H1 4 Bangalore 5  100
+H2 5 Bangalore 5  200
+H3 6 Mumbai 3  100
+
+HOTELS FOR Bangalore LOCATION IS:
+H1 4 Bangalore 5  100
+H2 5 Bangalore 5  200
+
+SORT BY ROOM AVAILABLE:
+H3 6 Mumbai 3  100
+H2 5 Bangalore 5  200
+H1 4 Bangalore 5  100
+
+PRINT USER BOOKING DATA:
+UserName UserID HotelName BookingCost
+U1         2        H1         1000
+U2         3        H2         1200
+U3         4        H3         1100
